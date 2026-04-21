@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint src/"
+    "lint": "eslint src/ --config eslint.config.js"
   },
   "devDependencies": {
     "jest": "^29.7.0",
